@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="OnCall.MyTestCases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="doLoingTest"/>
+          <include name="verifyLoginPageTitle"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="verifyLoginPageheader"/>
+        </methods>
+      </class> <!-- OnCall.MyTestCases.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test for firofox(failed)" parallel="methods">
+    <parameter name="browser" value="firofox"/>
+    <classes>
+      <class name="OnCall.MyTestCases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="doLoingTest"/>
+          <include name="verifyLoginPageTitle"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="verifyLoginPageheader"/>
+        </methods>
+      </class> <!-- OnCall.MyTestCases.LoginTest -->
+    </classes>
+  </test> <!-- Test for firofox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

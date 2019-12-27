@@ -1,0 +1,4 @@
+OnCall\MyPages\AbstractOnCallPage.class
+OnCall\MyPages\HomePage.class
+OnCall\MyPages\LoginPage.class
+OnCall\MyPages\BasePage.class
